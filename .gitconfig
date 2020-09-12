@@ -181,3 +181,8 @@
 [init]
 
 	defaultBranch = main
+
+[user]
+
+        name = lparolari
+        email = luca.parolari23@gmail.com
