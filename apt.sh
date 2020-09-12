@@ -23,12 +23,17 @@ function install_androidstudio {
     tar -xvzf ~/Downloads/androidstudio.deb -C /opt/android-studio
 }
 
+function install_ohmyzsh {
+    sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+}
+
 # Update and upgrade packages.
 apt update
 apt upgrade
 
 # Install zsh shell and make it default shell.
 apt install zsh
+install_ohmyzsh
 chsh -s $(which zsh)
 
 # Install zsh theme fonts.
