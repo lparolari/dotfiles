@@ -31,3 +31,16 @@ function install_ohmyzsh {
     sudo chsh -s $(which zsh)
     echo "You need to logout in order to get zsh as default shell."
 }
+
+function install_smartgit {
+    wget "https://www.syntevo.com/downloads/smartgit/smartgit-20_1_4.deb" -O ~/Downloads/smartgit.deb
+    sudo dpkg -i ~/Downloads/smartgit.deb
+}
+
+function install_veeam {
+    sudo apt install veeam
+}
+
+function install_virtualbox {
+    sudo apt install virtualbox
+}
