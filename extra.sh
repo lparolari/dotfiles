@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
 function install_vscode {
-    wget https://go.microsoft.com/fwlink/\?LinkID\=760868 -O ~/Downloads/vscode.deb
+    wget "https://go.microsoft.com/fwlink/?LinkID=760868" -O ~/Downloads/vscode.deb
     sudo dpkg -i ~/Downloads/vscode.deb
+    
+    echo "You may need to patch fonts for terminal"
+    echo "Try running this command:"
+    echo "  fc-cache -vf ~/.fonts"
+    echo "See https://github.com/abertsch/Menlo-for-Powerline"
 }
 
 function install_chrome {

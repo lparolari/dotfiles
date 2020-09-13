@@ -3,11 +3,6 @@
 # Install command-line tools using apt.
 # Needs to be run with sudo.
 
-function install_vscode {
-    wget https://go.microsoft.com/fwlink/\?LinkID\=760868 -O ~/Downloads/vscode.deb
-    dpkg -i ~/Downloads/vscode.deb
-}
-
 # Update and upgrade packages.
 apt update
 apt upgrade
@@ -19,7 +14,6 @@ apt install emacs
 apt install tree
 apt install tmux
 apt install vlc
-install_vscode
 
 # Install docker and its requirements
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
