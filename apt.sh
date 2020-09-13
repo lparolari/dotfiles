@@ -16,7 +16,7 @@ apt install tmux
 apt install vlc
 
 # Install docker and its requirements
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL "https://download.docker.com/linux/ubuntu/gpg" | sudo apt-key add -
 
 apt install apt-transport-https
 apt install ca-certificates
