@@ -14,6 +14,7 @@ apt install emacs
 apt install tree
 apt install tmux
 apt install vlc
+apt install gparted
 
 # Install docker and its requirements
 curl -fsSL "https://download.docker.com/linux/ubuntu/gpg" | sudo apt-key add -
