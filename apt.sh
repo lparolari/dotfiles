@@ -34,6 +34,9 @@ sudo apt install docker-ce
 sudo apt install docker-ce-cli 
 sudo apt install containerd.io
 
+# Install awesome apps
+sudo snap install spotify
+
 # Remove outdated versions.
 sudo apt autoremove
 sudo apt autoclean
