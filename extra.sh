@@ -44,3 +44,11 @@ function install_veeam {
 function install_virtualbox {
     sudo apt install virtualbox
 }
+
+function setup_docker {
+    # Setup docker group for non root usage.
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
+    newgrp docker 
+    echo "You may need to restart your computer."
+}
