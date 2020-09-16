@@ -52,3 +52,7 @@ function setup_docker {
     newgrp docker 
     echo "You may need to restart your computer."
 }
+
+function install_keeweb {
+    open "https://keeweb.info/"
+}
