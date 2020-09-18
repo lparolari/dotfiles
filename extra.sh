@@ -56,3 +56,7 @@ function setup_docker {
 function install_keeweb {
     open "https://keeweb.info/"
 }
+
+function setup_workspace_isolation {
+    open "https://askubuntu.com/a/1002071"
+}
