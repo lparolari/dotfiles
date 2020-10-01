@@ -1,3 +1,4 @@
 {
-    "terminal.integrated.fontFamily": "Menlo for Powerline" 
+  "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "editor.formatOnSave": true
 }
