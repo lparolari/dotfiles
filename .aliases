@@ -45,6 +45,7 @@ alias egrep='egrep --color=auto'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
+alias please='sudo '
 
 # Get week number
 alias week='date +%V'
