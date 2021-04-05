@@ -14,6 +14,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias w="cd ~/Work"
+alias t="cd /mnt/pegasus/home/lparolari/Teaching"
 alias g="git"
 
 # Detect which `ls` flavor is in use
@@ -59,7 +60,7 @@ alias firefox='firefox'
 
 # IP addresses
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ip address show dev enp0s3 | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+alias localip="ip address show dev wlp3s0 | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 alias localips="ip address | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
 # Canonical hex dump; some systems have this symlinked
@@ -81,8 +82,8 @@ alias vs="xclip -o -selection clipboard"
 alias emptytrash="sudo rm -rf ~/.local/share/Trash/*"
 
 # Show/hide hidden files in Finder
-alias showhidden="gsettings set org.gnome.nautilus.preferences show-hidden-files true"
-alias hidehidden="gsettings set org.gnome.nautilus.preferences show-hidden-files false"
+alias showhidden="gsettings set org.gtk.Settings.FileChooser show-hidden true"
+alias hidehidden="gsettings set org.gtk.Settings.FileChooser show-hidden false"
 
 # Hide/show all desktop icons (useful when presenting)
 alias showdesktop="gsettings set org.gnome.desktop.background show-desktop-icons true"
