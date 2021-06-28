@@ -8,13 +8,16 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
-# Shortcuts
+# Folder shortcuts
 alias dc="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias w="cd ~/Work"
 alias t="cd /mnt/pegasus/home/lparolari/Teaching"
+alias k="cd /mnt/pegasus/home/lparolari/Thesis"
+
+# Commands shortcuts
 alias g="git"
 
 # Detect which `ls` flavor is in use
