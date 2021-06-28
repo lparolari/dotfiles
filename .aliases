@@ -132,4 +132,4 @@ alias screenshot="gnome-screenshot -d 3"
 
 # Convert from a markup format to another
 # Generally, you may need to run `pandoc README.md -o README.pdf`
-alias pandoc="docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex" --variable urlcolor=cyan
+alias pandoc='docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex --variable urlcolor=cyan'
