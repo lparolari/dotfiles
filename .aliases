@@ -53,6 +53,7 @@ alias week='date +%V'
 
 # Get Ubuntu softawre updates, npm, and its installed packages
 alias update='sudo apt update; sudo apt upgrade; sudo apt autoremove; npm install npm -g; npm update -g'
+alias full-upgrade="sudo apt --yes update && sudo apt --yes upgrade && sudo apt --yes autoremove && sudo apt --yes autoclean"
 
 # Google Chrome
 alias chrome='google-chrome'
