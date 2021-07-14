@@ -15,4 +15,4 @@ PRIMARY_MONITOR=`xrandr | grep " connected primary" | awk '{ print$1 }'`
 STYLUS_ID=`xinput | grep "stylus" | cut -f 2 | cut -c 4-5 `
 # or, STYLUS_ID=`xinput | grep "stylus" | awk '{ print $7 }' | awk -F "=" '{ print $2 }'`
 
-xinput map-to-output $STYLUS_ID $MONITOR
+xinput map-to-output $STYLUS_ID $PRIMARY_MONITOR
