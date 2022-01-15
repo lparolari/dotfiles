@@ -13,9 +13,6 @@ alias dc="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
-alias w="cd ~/Work"
-alias t="cd /mnt/pegasus/home/lparolari/Teaching"
-alias k="cd /mnt/pegasus/home/lparolari/Thesis"
 
 # Commands shortcuts
 alias g="git"

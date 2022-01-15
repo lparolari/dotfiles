@@ -11,13 +11,17 @@ ZSH_THEME="agnoster"
 plugins=(
     git
     dotenv
+    autojump
+    zsh-k
+    zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 # Load the shell dotfiles exluding bash-related configs, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,exports,aliases,functions,extra}; do
-	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+for file in ~/.config/lparolari/{path,exports,aliases,functions,extra}; do
+    [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
 
