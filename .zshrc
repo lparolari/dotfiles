@@ -17,7 +17,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k" #"agnoster"
 # Set plugins to load. Do not use commas between plugins.
 plugins=(
     git
-    dotenv
     autojump
     zsh-k
     zsh-autosuggestions
