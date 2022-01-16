@@ -7,7 +7,7 @@ git pull origin arch;
 function doIt() {
 	rsync --exclude ".git/" \
 		--exclude "bootstrap.sh" \
-		--exclude "apt.sh" \
+		--exclude "init.sh" \
 		--exclude "extra.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE" \
