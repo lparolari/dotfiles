@@ -2,7 +2,7 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin arch;
+git pull origin workstation-at-orobix;
 
 function doIt() {
 	rsync --exclude ".git/" \
