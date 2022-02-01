@@ -1,4 +1,11 @@
 {
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
