@@ -18,7 +18,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k" #"agnoster"
 plugins=(
     git
     autojump
-    zsh-k
+    k
     zsh-autosuggestions
     zsh-syntax-highlighting
 )

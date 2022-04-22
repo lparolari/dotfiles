@@ -5,6 +5,7 @@ alias paruin="paru -S"
 
 sudo pacman -Syu
 
+paruin google-chrome
 pacin xclip
 pacin tree
 pacin docker
@@ -19,7 +20,7 @@ paruin pycharm-professional
 paruin postman-bin
 paruin smartgit
 paruin ulauncher
-install_ulauncher_tsdark_theme
+pacin thefuck
 
 setup_docker
 
@@ -28,17 +29,14 @@ function install_ohmyzsh() {
 }
 
 function install_ohmyzsh_plugins {
-    git clone git@github.com:wting/autojump.git ~/.oh-my-zsh/custom/plugins/autojump
+    paruin autojump
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     git clone git@github.com:supercrabtree/k.git ~/.oh-my-zsh/custom/plugins/k
     git clone git@github.com:zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
     git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 }
 
-function install_ulauncher_tsdark_theme {
-    mkdir -p ~/.config/ulauncher/user-themes/
-    git clone git@github.com:quamin/ts-dark.git ~/.config/ulauncher/user-themes/ts-dark
-}
-
 function setup_docker {
-    echo "Not yet Implemented. Setup docker following an online guide."
+    sudo usermod -aG docker $USER
+    echo "You need to logout and login to get docker working without root privileges."
 }
