@@ -11,6 +11,7 @@ pacin docker
 pacin docker-compose
 pacin zsh
 pacin dbeaver
+pacin thefuck
 pacin latte-dock
 install_ohmyzsh
 install_ohmyzsh_plugins
@@ -19,6 +20,7 @@ paruin pycharm-professional
 paruin postman-bin
 paruin smartgit
 paruin ulauncher
+paruin autojump
 
 setup_docker
 
