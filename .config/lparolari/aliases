@@ -136,5 +136,4 @@ alias screenshot="gnome-screenshot -d 3"
 alias pandoc='docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex --variable urlcolor=cyan'
 
 # Conda: Python virtual environment
-alias sourceconda="source ~/anaconda3/bin/activate"
-alias condaactivate="conda activate vtkel"
+alias sourceminiconda='eval "$(/home/lparolari/.miniconda3/bin/conda shell.zsh hook)"'
