@@ -1,2 +1,8 @@
-source "/home/lparolari/Programs/azure-cli/az.completion"
-eval $(thefuck --alias)
+# Azure cli completion
+if [ -f "/home/lparolari/Programs/azure-cli/az.completion" ]; then
+    source "/home/lparolari/Programs/azure-cli/az.completion"
+fi
+
+if command -v thefuck &> /dev/null; then
+    eval $(thefuck --alias)
+fi
