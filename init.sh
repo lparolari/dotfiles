@@ -19,7 +19,6 @@ paruin pycharm-professional
 paruin postman-bin
 paruin smartgit
 paruin ulauncher
-install_ulauncher_tsdark_theme
 
 setup_docker
 
@@ -32,11 +31,7 @@ function install_ohmyzsh_plugins {
     git clone git@github.com:supercrabtree/k.git ~/.oh-my-zsh/custom/plugins/k
     git clone git@github.com:zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
     git clone git@github.com:zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-}
-
-function install_ulauncher_tsdark_theme {
-    mkdir -p ~/.config/ulauncher/user-themes/
-    git clone git@github.com:quamin/ts-dark.git ~/.config/ulauncher/user-themes/ts-dark
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 }
 
 function setup_docker {
