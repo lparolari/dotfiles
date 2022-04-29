@@ -21,6 +21,7 @@ paruin postman-bin
 paruin smartgit
 paruin ulauncher
 paruin autojump
+install_nvm
 
 setup_docker
 
@@ -38,4 +39,8 @@ function install_ohmyzsh_plugins {
 
 function setup_docker {
     echo "Not yet Implemented. Setup docker following an online guide."
+}
+
+function install_nvm() {
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 }
