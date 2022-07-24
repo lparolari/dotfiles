@@ -1,1 +1,2 @@
 export PATH=$PATH:/home/lparolari/bin
+export PATH=$PATH:/home/lparolari/.local/bin
