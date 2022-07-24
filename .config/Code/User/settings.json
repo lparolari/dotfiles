@@ -1,11 +1,24 @@
 {
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "gitlens.advanced.messages": {
     "suppressFileNotUnderSourceControlWarning": true
   },
   "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "github.copilot.enable": {
+    "*": true,
+  },
+  "editor.tabSize": 2,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Light+"
 }
