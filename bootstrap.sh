@@ -13,7 +13,6 @@ function doPreview() {
 		--exclude "README.md" \
 		--exclude "LICENSE" \
 		-avh --no-perms . ~;
-	echo "You may need to reopen the shell to get updates."
 }
 
 function doIt() {
@@ -24,7 +23,6 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE" \
 		-avh --no-perms . ~;
-	echo "You may need to reopen the shell to get updates."
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
@@ -37,4 +35,6 @@ else
 		doIt;
 	fi;
 fi;
+
 unset doIt;
+unset doPreview;
