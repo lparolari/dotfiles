@@ -1,11 +1,52 @@
 {
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.inlineSuggest.enabled": true,
   "gitlens.advanced.messages": {
     "suppressFileNotUnderSourceControlWarning": true
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "markdown.extension.toc.updateOnSave": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": true
+  },
+  "black-formatter.path": [
+    "/home/lparolari/.miniconda3/envs/py38/bin/black"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "workbench.iconTheme": "vscode-icons",
+  "cSpell.userWords": [
+    "camelcase",
+    "filterset",
+    "fontawesome",
+    "formik",
+    "fortawesome",
+    "Gantt",
+    "heartexlabs",
+    "Lightbox",
+    "orobix",
+    "scroller",
+    "Testid",
+    "topbar",
+    "vals",
+    "Xmark"
+  ],
+  "cSpell.ignoreWords": [
+    "snakecase"
+  ],
+  "workbench.editor.showTabs": false,
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "editor.stickyScroll.enabled": true,
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 1
 }
