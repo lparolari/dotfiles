@@ -1,3 +1,5 @@
 [[ -f "/home/lparolari/Programs/azure-cli/az.completion" ]] && source "/home/lparolari/Programs/azure-cli/az.completion"
 [[ -f "/usr/share/nvm/init-nvm.sh" ]] && source /usr/share/nvm/init-nvm.sh
 eval $(thefuck --alias)
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
