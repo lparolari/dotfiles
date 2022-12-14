@@ -19,6 +19,15 @@
   "editor.tabSize": 2,
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.variableTypes": true,
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Default Light+"
+  "haskell.serverEnvironment": {
+    "PATH": "${HOME}/.ghcup/bin:$PATH"
+  },
+  "haskell.manageHLS": "GHCup",
+  "csv-preview.separator": ";",
+  "cSpell.userWords": [
+    "tparam",
+    "tsyringe",
+    "waterpump",
+    "wellets"
+  ]
 }
