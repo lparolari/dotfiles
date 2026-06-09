@@ -27,3 +27,9 @@ alias egrep='egrep --color=auto'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec ${SHELL} -l"
+
+# Flatpak vscode/codium
+alias code="flatpak run com.vscodium.codium"  # backport muscle memory
+alias codium="flatpak run com.vscodium.codium"
+alias vscode="flatpak run com.visualstudio.code"
+
