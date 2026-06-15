@@ -33,3 +33,6 @@ alias code="flatpak run com.vscodium.codium"  # backport muscle memory
 alias codium="flatpak run com.vscodium.codium"
 alias vscode="flatpak run com.visualstudio.code"
 
+# Podman
+alias pod="podman"
+alias docker="podman"  # backport muscle memory
